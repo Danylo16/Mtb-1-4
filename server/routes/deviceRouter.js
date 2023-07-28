@@ -1,8 +1,11 @@
 const Router = require('express')
 const router = new Router()
-const deviceController = require('../controllers/deviceController')
+const deviceController = require('../controllers/deviceController.js')
 
-router.post('/')
-router.get('/:id')
+router.post('/', deviceController.create) // create new device
+router.get('/:id', deviceController.getOne) // get one device
+router.get('/', deviceController.getAll) // get all devices 
+router.put('/:id', deviceController.update) // change one device
+router.delete('/:id', deviceController.delete) // delete one device
 
 module.exports = router
