@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "4510203",
+    "database": "mtb1_4",
+    "host": "localhost",
+    "port": 5433,
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "4510203",
+    "database": "mtb1_4",
+    "host": "localhost",
+    "port": 5433,
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "4510203",
+    "database": "mtb1_4",
+    "host": "localhost",
+    "port": 5433,
+    "dialect": "postgres"
+  }
+}
