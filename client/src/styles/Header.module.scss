@@ -1,0 +1,18 @@
+@import 'variables';
+
+.header {
+    background-color: $primary-color ;
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav{
+    min-width: 20%;
+    color: white;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
